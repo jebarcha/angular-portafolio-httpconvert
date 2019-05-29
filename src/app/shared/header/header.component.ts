@@ -8,8 +8,8 @@ import { InfoPaginaService } from '../../services/info-pagina.service';
 })
 export class HeaderComponent implements OnInit {
 	constructor(public _servicio: InfoPaginaService) {
-		console.log(this._servicio);
-		console.log(this._servicio.info);
+		// console.log(this._servicio);
+		// console.log(this._servicio.info);
 	}
 
 	ngOnInit() {}
